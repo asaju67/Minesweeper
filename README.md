@@ -4,15 +4,6 @@ This project implements the classic Minesweeper game on an FPGA platform, using 
 
 ---
 
-## Features
-
-- **VGA Display:** Real-time game graphics rendered using a custom VGA controller.
-- **Keyboard Control:** Cursor movement and cell interaction controlled through keyboard inputs.
-- **Game Logic:** Includes random mine generation, a finite state machine (FSM) for game flow, and scoring logic.
-- **Efficient Resource Utilization:** Designed with modular components and optimized for FPGA implementation.
-
----
-
 ## How to Play
 
 1. Launch the game by powering on the FPGA with the bitstream loaded.
@@ -45,6 +36,15 @@ This project implements the classic Minesweeper game on an FPGA platform, using 
 - `color_mapper.sv`: Maps game state information to display colors.
 - `score_controller.sv`: Tracks the player's score.
 - `mb_usb_hdmi_top.sv`: Top-level module integrating USB keyboard inputs, HDMI output, and game logic.
+
+---
+
+## Features
+
+- **VGA Display:** Real-time game graphics rendered using a custom VGA controller.
+- **Keyboard Control:** Cursor movement and cell interaction controlled through keyboard inputs.
+- **Game Logic:** Includes random mine generation, a finite state machine (FSM) for game flow, and scoring logic.
+- **Efficient Resource Utilization:** Designed with modular components and optimized for FPGA implementation.
 
 ---
 
